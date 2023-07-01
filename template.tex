@@ -1,0 +1,53 @@
+\documentclass[12pt]{article}
+\usepackage{fancyhdr}
+
+\headheight 15pt
+
+\title{Document Title}
+\author{Pham Anh Vu}
+\date{Date}
+
+\pagestyle{fancy}
+\fancyhf{} % Clear default headers and footers
+
+% Header
+\fancyhead[L]{Pham Anh Vu}
+\fancyhead[R]{Other Info}
+
+% Footer
+\fancyfoot[R]{\thepage}
+
+% Document
+\begin{document}
+    % Title Page
+    \begin{titlepage}
+        \maketitle
+        \begin{center}
+            \vspace{0.5cm}
+            \textbf{Title}\\
+
+            \vspace{2cm}
+            Instructor: Instructor Name\\
+
+            \vspace{8cm}
+            School\\
+            Geo location\\
+        \end{center}
+    \end{titlepage}
+
+    % Table of contents
+    \tableofcontents
+
+    % Content
+    \newpage
+    \section{Section 1}
+        \subsection{Subsection 1}
+    
+    % References
+    \newpage
+    \section{References}
+    \begin{itemize}
+        \item Ref 1
+        \item Ref 2
+      \end{itemize}
+\end{document}
